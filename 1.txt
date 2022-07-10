@@ -16,3 +16,9 @@ if(chel == 1){cout«"Draw"«endl;}
 else if(chel == 2){cout«"you won"«endl;}
 else{cout«"You lost"«endl;}
 }
+
+else if(bot == 2){
+if(chel==1){cout«"You lost"«endl;}
+else if(chel==2){cout«"Draw"«endl;}
+else{cout«"You won"«endl;}
+}
