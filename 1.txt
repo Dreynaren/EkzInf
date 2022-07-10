@@ -1,0 +1,18 @@
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+using namespace std;
+// 1 - kamen' 2 - bumaga 3-nozhnici
+int main(){
+srand(time(NULL));
+int bot = rand()%3 + 1;
+
+cout«"1 - kamen' or 2 - bumaga 3 or - nozhnici"«endl;
+int chel;
+cin»chel;
+if(chel == 1 || chel == 2 || chel == 3){
+if(bot == 1){
+if(chel == 1){cout«"Draw"«endl;}
+else if(chel == 2){cout«"you won"«endl;}
+else{cout«"You lost"«endl;}
+}
