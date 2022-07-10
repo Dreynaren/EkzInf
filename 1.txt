@@ -22,3 +22,16 @@ if(chel==1){cout«"You lost"«endl;}
 else if(chel==2){cout«"Draw"«endl;}
 else{cout«"You won"«endl;}
 }
+
+else{
+if(chel==1){cout«"You won"«endl;}
+else if(chel==2){cout«"You lost"«endl;}
+else{cout«"Draw"«endl;}
+}
+}
+else{
+cout«"write correct number"«endl;
+}
+cout«"random number:"«bot«endl;
+return 0;
+}
